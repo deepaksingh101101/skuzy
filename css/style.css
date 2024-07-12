@@ -730,7 +730,7 @@ a {
   left: 0;
   top: 0;
 }
-.header:before {
+/* .header:before {
   content: "";
   width: 60%;
   height: 20px;
@@ -739,8 +739,8 @@ a {
   right: 0;
   top: 0;
   z-index: 2;
-}
-.header:after {
+} */
+/* .header:after {
   content: "";
   width: 60%;
   height: 70px;
@@ -749,7 +749,7 @@ a {
   left: 40px;
   bottom: 0;
   z-index: 2;
-}
+} */
 .header h5 {
   font-size: 36px;
   color: #fff;
@@ -1239,11 +1239,11 @@ main {
   -o-transition: 0.25s ease-in-out;
   transition: 0.25s ease-in-out;
 }
-.works .works-grid li figure:hover a {
+.works .works-grid li figure:hover div {
   transform: scale(0.95);
   box-shadow: 5px 20px 50px 5px rgba(153, 153, 153, 0.4);
 }
-.works .works-grid li figure:hover a img {
+.works .works-grid li figure:hover div img {
   transform: scale(1);
 }
 .works .works-grid li figure:hover figcaption {
@@ -1252,11 +1252,11 @@ main {
 .works .works-grid li figure:hover figcaption span {
   height: 0;
 }
-.works .works-grid li figure a {
+.works .works-grid li figure div {
   float: left;
   overflow: hidden;
 }
-.works .works-grid li figure a img {
+.works .works-grid li figure div img {
   width: 100%;
   float: left;
 }
